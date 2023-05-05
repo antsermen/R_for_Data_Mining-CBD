@@ -4,4 +4,4 @@ En este repositorio se alojarán los distintos Scripts en lenuaje R para el proy
 
 Además, se añadirá la base de datos también para facilitar la descarga.
 
-Aunque viene expresado en la memoria del trabajo, para poder ejecutar correctamente los distintos scripts R en su dispositivo, se deben de instalar los paquetes RSQLite y DBI con el comando install.packages("RSQLite") e install.packages("DBI") respectivamente. Se pueden ejecutar los comandos anteriores directamente en la consola de RStudio.
+Aunque viene expresado en la memoria del trabajo, para poder ejecutar correctamente los distintos scripts R en su dispositivo, se deben de instalar los paquetes RSQLite, DBI, dplyr y rpart con el comando install.packages("RSQLite"), install.packages("DBI"), install.packages("dplyr") e install.packages("rpart") respectivamente. Se pueden ejecutar los comandos anteriores directamente en la consola de RStudio.
