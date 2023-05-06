@@ -9,3 +9,4 @@ consulta <- "SELECT BillingCountry as País, (SUM(Total*Total)/COUNT(*) - (SUM(T
 resultados <- dbGetQuery(con, consulta)
 
 print(resultados)
+dbDisconnect(con)
